@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZThBK/W/wsc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD Básico\\CRUD Básico\\CRUD Básico.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\batah\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.10\\microsoft.aspnetcore.openapi.9.0.10.nupkg.sha512",
+    "C:\\Users\\batah\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
