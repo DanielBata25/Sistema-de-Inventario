@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD Básico\\Utilities\\Utilities.csproj": {}
+    "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Utilities\\Utilities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD Básico\\Utilities\\Utilities.csproj": {
+    "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Utilities\\Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD Básico\\Utilities\\Utilities.csproj",
+        "projectUniqueName": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Utilities\\Utilities.csproj",
         "projectName": "Utilities",
-        "projectPath": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD Básico\\Utilities\\Utilities.csproj",
+        "projectPath": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Utilities\\Utilities.csproj",
         "packagesPath": "C:\\Users\\batah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD Básico\\Utilities\\obj\\",
+        "outputPath": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

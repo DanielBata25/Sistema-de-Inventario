@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD Básico\\CRUD Básico\\CRUD Básico.csproj": {}
+    "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\CRUD Básico\\CRUD Básico.csproj": {}
   },
   "projects": {
-    "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD Básico\\CRUD Básico\\CRUD Básico.csproj": {
+    "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\CRUD Básico\\CRUD Básico.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD Básico\\CRUD Básico\\CRUD Básico.csproj",
+        "projectUniqueName": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\CRUD Básico\\CRUD Básico.csproj",
         "projectName": "CRUD Básico",
-        "projectPath": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD Básico\\CRUD Básico\\CRUD Básico.csproj",
+        "projectPath": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\CRUD Básico\\CRUD Básico.csproj",
         "packagesPath": "C:\\Users\\batah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD Básico\\CRUD Básico\\obj\\",
+        "outputPath": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\CRUD Básico\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -54,6 +54,30 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
             }
           },
           "imports": [

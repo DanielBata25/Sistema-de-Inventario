@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD Básico\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD Básico\\Data\\Data.csproj",
+      "projectPath": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\batah\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD Básico\\Data\\obj\\",
+      "outputPath": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

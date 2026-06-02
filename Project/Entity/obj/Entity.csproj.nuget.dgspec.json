@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD Básico\\Entity\\Entity.csproj": {}
+    "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD Básico\\Entity\\Entity.csproj": {
+    "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD Básico\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD Básico\\Entity\\Entity.csproj",
+        "projectPath": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\batah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD Básico\\Entity\\obj\\",
+        "outputPath": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,32 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.79, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

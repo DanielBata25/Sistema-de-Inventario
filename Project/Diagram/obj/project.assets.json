@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD Básico\\Diagram\\Diagram.csproj",
+      "projectUniqueName": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Diagram\\Diagram.csproj",
       "projectName": "Diagram",
-      "projectPath": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD Básico\\Diagram\\Diagram.csproj",
+      "projectPath": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Diagram\\Diagram.csproj",
       "packagesPath": "C:\\Users\\batah\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD Básico\\Diagram\\obj\\",
+      "outputPath": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Diagram\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

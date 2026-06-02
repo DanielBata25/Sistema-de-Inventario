@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD Básico\\Business\\Business.csproj",
+      "projectUniqueName": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Business.csproj",
       "projectName": "Business",
-      "projectPath": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD Básico\\Business\\Business.csproj",
+      "projectPath": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Business.csproj",
       "packagesPath": "C:\\Users\\batah\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD Básico\\Business\\obj\\",
+      "outputPath": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
