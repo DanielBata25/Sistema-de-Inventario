@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Data.Repository
+namespace Data.Interfaces.IRepository
 {
-    internal class ProductRepository
+    internal class IDataGeneric
     {
     }
 }
