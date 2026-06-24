@@ -1051,6 +1051,16 @@
         "runtime": {
           "bin/placeholder/Entity.dll": {}
         }
+      },
+      "Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Utilities.dll": {}
+        }
       }
     }
   },
@@ -2856,12 +2866,18 @@
       "type": "project",
       "path": "../Entity/Entity.csproj",
       "msbuildProject": "../Entity/Entity.csproj"
+    },
+    "Utilities/1.0.0": {
+      "type": "project",
+      "path": "../Utilities/Utilities.csproj",
+      "msbuildProject": "../Utilities/Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "Data >= 1.0.0",
-      "Entity >= 1.0.0"
+      "Entity >= 1.0.0",
+      "Utilities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2902,6 +2918,9 @@
             },
             "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\Entity.csproj": {
               "projectPath": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\Entity.csproj"
+            },
+            "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Utilities\\Utilities.csproj": {
+              "projectPath": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Utilities\\Utilities.csproj"
             }
           }
         }
@@ -2940,5 +2959,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error al obtener los datos de vulnerabilidad del paquete: No se puede cargar el índice de servicio del origen https://api.nuget.org/v3/index.json."
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+iNZdAt+kz4=",
+  "dgSpecHash": "wuoraiwlbGI=",
   "success": true,
   "projectFilePath": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Business.csproj",
   "expectedPackageFiles": [
@@ -63,5 +63,15 @@
     "C:\\Users\\batah\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\batah\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error al obtener los datos de vulnerabilidad del paquete: No se puede cargar el índice de servicio del origen https://api.nuget.org/v3/index.json.",
+      "projectPath": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Business.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Business.csproj",
+      "targetGraphs": []
+    }
+  ]
 }
