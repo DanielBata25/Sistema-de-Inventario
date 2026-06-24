@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Data.Interfaces.IDataGeneric;
+using Entity.Model;
 
-namespace Data.Interfaces.Implements.Product
+
+namespace Data.Interfaces.IProductRepository
 {
-    internal class IProductRepository
+    public interface IProductRepository : IDataGeneric<Product>
     {
+        Task<Product?> GetByCodigoAsync(string codigo);
     }
 }
