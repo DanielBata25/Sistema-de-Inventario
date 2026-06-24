@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "OjCr0DHhOvw=",
-  "success": false,
+  "dgSpecHash": "QYheExvRxaw=",
+  "success": true,
   "projectFilePath": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Data\\Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\batah\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\batah\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
+    "C:\\Users\\batah\\.nuget\\packages\\mapster\\10.0.9\\mapster.10.0.9.nupkg.sha512",
+    "C:\\Users\\batah\\.nuget\\packages\\mapster.core\\10.0.9\\mapster.core.10.0.9.nupkg.sha512",
+    "C:\\Users\\batah\\.nuget\\packages\\mapster.dependencyinjection\\10.0.9\\mapster.dependencyinjection.10.0.9.nupkg.sha512",
     "C:\\Users\\batah\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\batah\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\batah\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.6\\microsoft.data.sqlclient.5.1.6.nupkg.sha512",
@@ -60,17 +63,5 @@
     "C:\\Users\\batah\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\batah\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Ciclo detectado. \r\n  Data -> Entity -> Data.",
-      "projectPath": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Data\\Data.csproj",
-      "filePath": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Data\\Data.csproj",
-      "libraryId": "Data",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  "logs": []
 }

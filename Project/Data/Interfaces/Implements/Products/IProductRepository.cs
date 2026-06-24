@@ -1,8 +1,7 @@
-﻿using Data.Interfaces.IDataGeneric;
+﻿using Data.Interfaces.IRepository;
 using Entity.Model;
 
-
-namespace Data.Interfaces.IProductRepository
+namespace Data.Interfaces.Implements.Products
 {
     public interface IProductRepository : IDataGeneric<Product>
     {

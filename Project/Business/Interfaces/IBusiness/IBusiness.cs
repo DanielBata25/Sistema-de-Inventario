@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Business.Interfaces.IBusiness
+﻿namespace Business.Interfaces.IBusiness
 {
-    internal class IBusiness
+    public interface IBusiness<TCreateDto, TUpdateDto, TSelectDto>
     {
+        Task<IEnumerable<TSelectDto>> GetAllAsync();
+
+        Task<TSelectDto?> GetByIdAsync(int id);
+
+        Task<TSelectDto> CreateAsync(TCreateDto dto);
+
+        Task<TSelectDto?> UpdateAsync(int id, TUpdateDto dto);
+
+        Task<bool> DeleteAsync(int id);
     }
 }

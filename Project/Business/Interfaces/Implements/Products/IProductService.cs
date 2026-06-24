@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Business.Interfaces.IBusiness;
+using Entity.DTOs.Products;
+
 
 namespace Business.Interfaces.Implements.Products
 {
-    internal class IProductService
+    public interface IProductService : IBusiness<ProductCreateDto, ProductUpdateDto, ProductSelectDto>
     {
+        Task<ProductSelectDto?> GetByCodigoAsync(string codigo);
     }
 }

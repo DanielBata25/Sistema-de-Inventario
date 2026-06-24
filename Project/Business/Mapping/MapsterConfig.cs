@@ -1,12 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Entity.DTOs.Products;
+using Entity.Model;
+using Mapster;
 
 namespace Business.Mapping
 {
-    internal class MapsterConfig
+    public static class MapsterConfig
     {
+        public static TypeAdapterConfig Register()
+        {
+            var config = TypeAdapterConfig.GlobalSettings;
+
+            config.NewConfig<ProductCreateDto, Product>()
+                .Ignore(dest => dest.Id)
+                .Ignore(dest => dest.Activo)
+                .Ignore(dest => dest.FechaCreacion)
+                .Ignore(dest => dest.FechaActualizacion);
+
+            config.NewConfig<ProductUpdateDto, Product>()
+                .Ignore(dest => dest.FechaCreacion)
+                .Ignore(dest => dest.FechaActualizacion);
+
+            config.NewConfig<Product, ProductSelectDto>();
+
+            return config;
+        }
     }
 }

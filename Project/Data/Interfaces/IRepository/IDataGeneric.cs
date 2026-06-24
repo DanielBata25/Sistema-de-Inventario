@@ -1,4 +1,4 @@
-﻿namespace Data.Interfaces.IDataGeneric
+﻿namespace Data.Interfaces.IRepository
 {
     public interface IDataGeneric<T> where T : class
     {
