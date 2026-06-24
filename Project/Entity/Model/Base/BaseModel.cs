@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Entity.Model.Base
+﻿namespace Entity.Model.Base
 {
-    internal class ProductBase
+    public class ProductBase
     {
+ 
     }
 }

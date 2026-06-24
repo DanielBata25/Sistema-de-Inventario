@@ -1,7 +1,7 @@
 ﻿namespace Entity.DTOs.Products
 {
-    public class ProductCreateDto
+    public class ProductUpdateDto
     {
- 
+   
     }
 }

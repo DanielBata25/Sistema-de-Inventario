@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD B\u00E1sico\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A12CCF88-F4C5-4B28-9018-CF3B34E57DE9}|Diagram\\Diagram.csproj|c:\\users\\batah\\onedrive\\escritorio\\crud b\u00E1sico\\diagram\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A12CCF88-F4C5-4B28-9018-CF3B34E57DE9}|Diagram\\Diagram.csproj|solutionrelative:diagram\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED585170-9658-492B-B116-CC78830BAAA6}|Utilities\\Utilities.csproj|c:\\users\\batah\\onedrive\\escritorio\\crud b\u00E1sico\\utilities\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED585170-9658-492B-B116-CC78830BAAA6}|Utilities\\Utilities.csproj|solutionrelative:utilities\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8DCBC0-1368-4F9F-8BDA-CBBF28B3B035}|Business\\Business.csproj|c:\\users\\batah\\onedrive\\escritorio\\crud b\u00E1sico\\business\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8DCBC0-1368-4F9F-8BDA-CBBF28B3B035}|Business\\Business.csproj|solutionrelative:business\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{005132C6-A1C4-4242-B18B-C6D043B8CC53}|Entity\\Entity.csproj|c:\\users\\batah\\onedrive\\escritorio\\crud b\u00E1sico\\entity\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{005132C6-A1C4-4242-B18B-C6D043B8CC53}|Entity\\Entity.csproj|solutionrelative:entity\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC94EDFA-B83F-48E4-A699-82266D498ECD}|Data\\Data.csproj|c:\\users\\batah\\onedrive\\escritorio\\crud b\u00E1sico\\data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC94EDFA-B83F-48E4-A699-82266D498ECD}|Data\\Data.csproj|solutionrelative:data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD B\u00E1sico\\Diagram\\Class1.cs",
+              "RelativeDocumentMoniker": "Diagram\\Class1.cs",
+              "ToolTip": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD B\u00E1sico\\Diagram\\Class1.cs",
+              "RelativeToolTip": "Diagram\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T04:09:14.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD B\u00E1sico\\Utilities\\Class1.cs",
+              "RelativeDocumentMoniker": "Utilities\\Class1.cs",
+              "ToolTip": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD B\u00E1sico\\Utilities\\Class1.cs",
+              "RelativeToolTip": "Utilities\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T04:08:00.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD B\u00E1sico\\Business\\Class1.cs",
+              "RelativeDocumentMoniker": "Business\\Class1.cs",
+              "ToolTip": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD B\u00E1sico\\Business\\Class1.cs",
+              "RelativeToolTip": "Business\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T04:07:08.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD B\u00E1sico\\Entity\\Class1.cs",
+              "RelativeDocumentMoniker": "Entity\\Class1.cs",
+              "ToolTip": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD B\u00E1sico\\Entity\\Class1.cs",
+              "RelativeToolTip": "Entity\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T04:05:13.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD B\u00E1sico\\Data\\Class1.cs",
+              "RelativeDocumentMoniker": "Data\\Class1.cs",
+              "ToolTip": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD B\u00E1sico\\Data\\Class1.cs",
+              "RelativeToolTip": "Data\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T04:04:17.724Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
