@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{7A8DCBC0-1368-4F9F-8BDA-CBBF28B3B035}|Business\\Business.csproj|solutionrelative:business\\mapping\\mapsterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A8DCBC0-1368-4F9F-8BDA-CBBF28B3B035}|Business\\Business.csproj|c:\\users\\batah\\onedrive\\desktop\\sistema-de-inventario\\project\\business\\services\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A8DCBC0-1368-4F9F-8BDA-CBBF28B3B035}|Business\\Business.csproj|solutionrelative:business\\services\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7A8DCBC0-1368-4F9F-8BDA-CBBF28B3B035}|Business\\Business.csproj|c:\\users\\batah\\onedrive\\desktop\\sistema-de-inventario\\project\\business\\repository\\abusinessgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A8DCBC0-1368-4F9F-8BDA-CBBF28B3B035}|Business\\Business.csproj|solutionrelative:business\\repository\\abusinessgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8DCBC0-1368-4F9F-8BDA-CBBF28B3B035}|Business\\Business.csproj|c:\\users\\batah\\onedrive\\desktop\\sistema-de-inventario\\project\\business\\services\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8DCBC0-1368-4F9F-8BDA-CBBF28B3B035}|Business\\Business.csproj|solutionrelative:business\\services\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A8DCBC0-1368-4F9F-8BDA-CBBF28B3B035}|Business\\Business.csproj|c:\\users\\batah\\onedrive\\desktop\\sistema-de-inventario\\project\\business\\repository\\businessgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,12 +102,12 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Services\\Products\\ProductService.cs",
               "RelativeDocumentMoniker": "Business\\Services\\Products\\ProductService.cs",
-              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Services\\Products\\ProductService.cs*",
-              "RelativeToolTip": "Business\\Services\\Products\\ProductService.cs*",
+              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Services\\Products\\ProductService.cs",
+              "RelativeToolTip": "Business\\Services\\Products\\ProductService.cs",
               "ViewState": "AgIAAFkAAAAAAAAAAAAgwGoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-24T21:44:16.314Z",
@@ -121,9 +121,22 @@
               "RelativeDocumentMoniker": "Business\\Mapping\\MapsterConfig.cs",
               "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Mapping\\MapsterConfig.cs",
               "RelativeToolTip": "Business\\Mapping\\MapsterConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-24T21:43:58.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ABusinessGeneric.cs",
+              "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Repository\\ABusinessGeneric.cs",
+              "RelativeDocumentMoniker": "Business\\Repository\\ABusinessGeneric.cs",
+              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Repository\\ABusinessGeneric.cs",
+              "RelativeToolTip": "Business\\Repository\\ABusinessGeneric.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T21:42:36.604Z",
               "EditorCaption": ""
             },
             {
@@ -137,19 +150,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-24T21:43:25.432Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ABusinessGeneric.cs",
-              "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Repository\\ABusinessGeneric.cs",
-              "RelativeDocumentMoniker": "Business\\Repository\\ABusinessGeneric.cs",
-              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Repository\\ABusinessGeneric.cs",
-              "RelativeToolTip": "Business\\Repository\\ABusinessGeneric.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T21:42:36.604Z",
               "EditorCaption": ""
             },
             {
@@ -171,8 +171,8 @@
               "Title": "IBusiness.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Interfaces\\IBusiness\\IBusiness.cs",
               "RelativeDocumentMoniker": "Business\\Interfaces\\IBusiness\\IBusiness.cs",
-              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Interfaces\\IBusiness\\IBusiness.cs*",
-              "RelativeToolTip": "Business\\Interfaces\\IBusiness\\IBusiness.cs*",
+              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Interfaces\\IBusiness\\IBusiness.cs",
+              "RelativeToolTip": "Business\\Interfaces\\IBusiness\\IBusiness.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-24T21:32:46.394Z",
@@ -223,8 +223,8 @@
               "Title": "IDataGeneric.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Data\\Interfaces\\IRepository\\IDataGeneric.cs",
               "RelativeDocumentMoniker": "Data\\Interfaces\\IRepository\\IDataGeneric.cs",
-              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Data\\Interfaces\\IRepository\\IDataGeneric.cs*",
-              "RelativeToolTip": "Data\\Interfaces\\IRepository\\IDataGeneric.cs*",
+              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Data\\Interfaces\\IRepository\\IDataGeneric.cs",
+              "RelativeToolTip": "Data\\Interfaces\\IRepository\\IDataGeneric.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-24T20:42:14.882Z",
@@ -236,8 +236,8 @@
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Data\\Interfaces\\Implements\\Products\\IProductRepository.cs",
               "RelativeDocumentMoniker": "Data\\Interfaces\\Implements\\Products\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Data\\Interfaces\\Implements\\Products\\IProductRepository.cs*",
-              "RelativeToolTip": "Data\\Interfaces\\Implements\\Products\\IProductRepository.cs*",
+              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Data\\Interfaces\\Implements\\Products\\IProductRepository.cs",
+              "RelativeToolTip": "Data\\Interfaces\\Implements\\Products\\IProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-24T19:53:51.862Z",
