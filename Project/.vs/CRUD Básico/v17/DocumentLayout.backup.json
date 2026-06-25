@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A8DCBC0-1368-4F9F-8BDA-CBBF28B3B035}|Business\\Business.csproj|c:\\users\\batah\\onedrive\\desktop\\sistema-de-inventario\\project\\business\\services\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A8DCBC0-1368-4F9F-8BDA-CBBF28B3B035}|Business\\Business.csproj|solutionrelative:business\\services\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F061913-52FA-4BF8-9CA4-968D36BC0ECC}|CRUD B\u00E1sico\\CRUD B\u00E1sico.csproj|c:\\users\\batah\\onedrive\\desktop\\sistema-de-inventario\\project\\crud b\u00E1sico\\controllers\\implements\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F061913-52FA-4BF8-9CA4-968D36BC0ECC}|CRUD B\u00E1sico\\CRUD B\u00E1sico.csproj|solutionrelative:crud b\u00E1sico\\controllers\\implements\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A8DCBC0-1368-4F9F-8BDA-CBBF28B3B035}|Business\\Business.csproj|c:\\users\\batah\\onedrive\\desktop\\sistema-de-inventario\\project\\business\\repository\\businessgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A8DCBC0-1368-4F9F-8BDA-CBBF28B3B035}|Business\\Business.csproj|solutionrelative:business\\repository\\businessgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F061913-52FA-4BF8-9CA4-968D36BC0ECC}|CRUD B\u00E1sico\\CRUD B\u00E1sico.csproj|c:\\users\\batah\\onedrive\\desktop\\sistema-de-inventario\\project\\crud b\u00E1sico\\controllers\\base\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F061913-52FA-4BF8-9CA4-968D36BC0ECC}|CRUD B\u00E1sico\\CRUD B\u00E1sico.csproj|solutionrelative:crud b\u00E1sico\\controllers\\base\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED585170-9658-492B-B116-CC78830BAAA6}|Utilities\\Utilities.csproj|c:\\users\\batah\\onedrive\\desktop\\sistema-de-inventario\\project\\utilities\\helpers\\business\\businessvalidationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,12 +23,12 @@
       "RelativeMoniker": "D:0:0:{ED585170-9658-492B-B116-CC78830BAAA6}|Utilities\\Utilities.csproj|solutionrelative:utilities\\exceptions\\bussinessexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F061913-52FA-4BF8-9CA4-968D36BC0ECC}|CRUD B\u00E1sico\\CRUD B\u00E1sico.csproj|c:\\users\\batah\\onedrive\\desktop\\sistema-de-inventario\\project\\crud b\u00E1sico\\controllers\\implements\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F061913-52FA-4BF8-9CA4-968D36BC0ECC}|CRUD B\u00E1sico\\CRUD B\u00E1sico.csproj|solutionrelative:crud b\u00E1sico\\controllers\\implements\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A8DCBC0-1368-4F9F-8BDA-CBBF28B3B035}|Business\\Business.csproj|c:\\users\\batah\\onedrive\\desktop\\sistema-de-inventario\\project\\business\\services\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8DCBC0-1368-4F9F-8BDA-CBBF28B3B035}|Business\\Business.csproj|solutionrelative:business\\services\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F061913-52FA-4BF8-9CA4-968D36BC0ECC}|CRUD B\u00E1sico\\CRUD B\u00E1sico.csproj|c:\\users\\batah\\onedrive\\desktop\\sistema-de-inventario\\project\\crud b\u00E1sico\\controllers\\base\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F061913-52FA-4BF8-9CA4-968D36BC0ECC}|CRUD B\u00E1sico\\CRUD B\u00E1sico.csproj|solutionrelative:crud b\u00E1sico\\controllers\\base\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A8DCBC0-1368-4F9F-8BDA-CBBF28B3B035}|Business\\Business.csproj|c:\\users\\batah\\onedrive\\desktop\\sistema-de-inventario\\project\\business\\repository\\businessgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8DCBC0-1368-4F9F-8BDA-CBBF28B3B035}|Business\\Business.csproj|solutionrelative:business\\repository\\businessgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F061913-52FA-4BF8-9CA4-968D36BC0ECC}|CRUD B\u00E1sico\\CRUD B\u00E1sico.csproj|c:\\users\\batah\\onedrive\\desktop\\sistema-de-inventario\\project\\crud b\u00E1sico\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -119,27 +119,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BusinessGeneric.cs",
-              "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Repository\\BusinessGeneric.cs",
-              "RelativeDocumentMoniker": "Business\\Repository\\BusinessGeneric.cs",
-              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Repository\\BusinessGeneric.cs",
-              "RelativeToolTip": "Business\\Repository\\BusinessGeneric.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAswH8AAAABAAAAAAAAAA==",
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\CRUD B\u00E1sico\\Controllers\\Base\\BaseController.cs",
+              "RelativeDocumentMoniker": "CRUD B\u00E1sico\\Controllers\\Base\\BaseController.cs",
+              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\CRUD B\u00E1sico\\Controllers\\Base\\BaseController.cs",
+              "RelativeToolTip": "CRUD B\u00E1sico\\Controllers\\Base\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T21:43:25.432Z",
+              "WhenOpened": "2026-06-24T19:49:29.297Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Services\\Products\\ProductService.cs",
-              "RelativeDocumentMoniker": "Business\\Services\\Products\\ProductService.cs",
-              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Services\\Products\\ProductService.cs*",
-              "RelativeToolTip": "Business\\Services\\Products\\ProductService.cs*",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAgwGoAAAABAAAAAAAAAA==",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\CRUD B\u00E1sico\\Controllers\\Implements\\ProductController.cs",
+              "RelativeDocumentMoniker": "CRUD B\u00E1sico\\Controllers\\Implements\\ProductController.cs",
+              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\CRUD B\u00E1sico\\Controllers\\Implements\\ProductController.cs*",
+              "RelativeToolTip": "CRUD B\u00E1sico\\Controllers\\Implements\\ProductController.cs*",
+              "ViewState": "AgIAACMAAAAAAAAAAAAkwDkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T21:44:16.314Z",
+              "WhenOpened": "2026-06-24T19:50:19.143Z",
               "EditorCaption": ""
             },
             {
@@ -165,7 +165,8 @@
               "RelativeToolTip": "Utilities\\Exceptions\\DataException.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAgwDgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T22:27:08.795Z"
+              "WhenOpened": "2026-06-24T22:27:08.795Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -177,31 +178,34 @@
               "RelativeToolTip": "Utilities\\Exceptions\\BussinessException.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAgwEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T22:26:38.053Z"
+              "WhenOpened": "2026-06-24T22:26:38.053Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\CRUD B\u00E1sico\\Controllers\\Implements\\ProductController.cs",
-              "RelativeDocumentMoniker": "CRUD B\u00E1sico\\Controllers\\Implements\\ProductController.cs",
-              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\CRUD B\u00E1sico\\Controllers\\Implements\\ProductController.cs",
-              "RelativeToolTip": "CRUD B\u00E1sico\\Controllers\\Implements\\ProductController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBgAAAAJAAAAAAAAAA==",
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Services\\Products\\ProductService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\Products\\ProductService.cs",
+              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Services\\Products\\ProductService.cs",
+              "RelativeToolTip": "Business\\Services\\Products\\ProductService.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAgwGoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T19:50:19.143Z"
+              "WhenOpened": "2026-06-24T21:44:16.314Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "BaseController.cs",
-              "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\CRUD B\u00E1sico\\Controllers\\Base\\BaseController.cs",
-              "RelativeDocumentMoniker": "CRUD B\u00E1sico\\Controllers\\Base\\BaseController.cs",
-              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\CRUD B\u00E1sico\\Controllers\\Base\\BaseController.cs",
-              "RelativeToolTip": "CRUD B\u00E1sico\\Controllers\\Base\\BaseController.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAgwJIAAAABAAAAAAAAAA==",
+              "Title": "BusinessGeneric.cs",
+              "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Repository\\BusinessGeneric.cs",
+              "RelativeDocumentMoniker": "Business\\Repository\\BusinessGeneric.cs",
+              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Repository\\BusinessGeneric.cs",
+              "RelativeToolTip": "Business\\Repository\\BusinessGeneric.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAswH8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T19:49:29.297Z"
+              "WhenOpened": "2026-06-24T21:43:25.432Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
