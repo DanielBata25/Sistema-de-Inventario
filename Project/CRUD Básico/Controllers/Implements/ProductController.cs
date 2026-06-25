@@ -2,6 +2,7 @@
 using CRUD_Básico.Controllers.Base;
 using Entity.DTOs.Products;
 using Microsoft.AspNetCore.Mvc;
+using Utilities.Exceptions;
 
 namespace CRUD_Básico.Controllers.Implements
 {
@@ -19,6 +20,7 @@ namespace CRUD_Básico.Controllers.Implements
 
         [HttpGet("codigo/{codigo}")]
         [ProducesResponseType(200)]
+        [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         [ProducesResponseType(500)]
         public async Task<IActionResult> GetByCodigo(string codigo)
@@ -33,6 +35,18 @@ namespace CRUD_Básico.Controllers.Implements
                 }
 
                 return Ok(result);
+            }
+            catch (ValidationException ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+            catch (BusinessRuleViolationException ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+            catch (BusinessException ex)
+            {
+                return BadRequest(new { message = ex.Message });
             }
             catch (Exception ex)
             {

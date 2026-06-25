@@ -1,5 +1,6 @@
 ﻿using Business.Interfaces.IBusiness;
 using Microsoft.AspNetCore.Mvc;
+using Utilities.Exceptions;
 
 namespace CRUD_Básico.Controllers.Base
 {
@@ -21,14 +22,17 @@ namespace CRUD_Básico.Controllers.Base
         }
 
         [HttpGet]
-        [ProducesResponseType(200)]
-        [ProducesResponseType(500)]
         public virtual async Task<IActionResult> Get()
         {
             try
             {
                 var result = await _service.GetAllAsync();
                 return Ok(result);
+            }
+            catch (BusinessException ex)
+            {
+                _logger.LogWarning(ex, "Error de negocio obteniendo datos.");
+                return BadRequest(new { message = ex.Message });
             }
             catch (Exception ex)
             {
@@ -38,9 +42,6 @@ namespace CRUD_Básico.Controllers.Base
         }
 
         [HttpGet("{id:int}")]
-        [ProducesResponseType(200)]
-        [ProducesResponseType(404)]
-        [ProducesResponseType(500)]
         public virtual async Task<IActionResult> GetById(int id)
         {
             try
@@ -54,6 +55,18 @@ namespace CRUD_Básico.Controllers.Base
 
                 return Ok(result);
             }
+            catch (ValidationException ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+            catch (EntityNotFoundException ex)
+            {
+                return NotFound(new { message = ex.Message });
+            }
+            catch (BusinessException ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error al obtener el registro con ID {Id}.", id);
@@ -62,9 +75,6 @@ namespace CRUD_Básico.Controllers.Base
         }
 
         [HttpPost]
-        [ProducesResponseType(200)]
-        [ProducesResponseType(400)]
-        [ProducesResponseType(500)]
         public virtual async Task<IActionResult> Post([FromBody] TCreateDto dto)
         {
             try
@@ -72,11 +82,15 @@ namespace CRUD_Básico.Controllers.Base
                 var result = await _service.CreateAsync(dto);
                 return Ok(result);
             }
-            catch (ArgumentException ex)
+            catch (ValidationException ex)
             {
                 return BadRequest(new { message = ex.Message });
             }
-            catch (InvalidOperationException ex)
+            catch (BusinessRuleViolationException ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+            catch (BusinessException ex)
             {
                 return BadRequest(new { message = ex.Message });
             }
@@ -88,10 +102,6 @@ namespace CRUD_Básico.Controllers.Base
         }
 
         [HttpPut("{id:int}")]
-        [ProducesResponseType(200)]
-        [ProducesResponseType(400)]
-        [ProducesResponseType(404)]
-        [ProducesResponseType(500)]
         public virtual async Task<IActionResult> Put(int id, [FromBody] TUpdateDto dto)
         {
             try
@@ -105,11 +115,15 @@ namespace CRUD_Básico.Controllers.Base
 
                 return Ok(result);
             }
-            catch (ArgumentException ex)
+            catch (ValidationException ex)
             {
                 return BadRequest(new { message = ex.Message });
             }
-            catch (InvalidOperationException ex)
+            catch (BusinessRuleViolationException ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+            catch (BusinessException ex)
             {
                 return BadRequest(new { message = ex.Message });
             }
@@ -121,9 +135,6 @@ namespace CRUD_Básico.Controllers.Base
         }
 
         [HttpDelete("{id:int}")]
-        [ProducesResponseType(204)]
-        [ProducesResponseType(404)]
-        [ProducesResponseType(500)]
         public virtual async Task<IActionResult> Delete(int id)
         {
             try
@@ -136,6 +147,18 @@ namespace CRUD_Básico.Controllers.Base
                 }
 
                 return NoContent();
+            }
+            catch (ValidationException ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+            catch (EntityNotFoundException ex)
+            {
+                return NotFound(new { message = ex.Message });
+            }
+            catch (BusinessException ex)
+            {
+                return BadRequest(new { message = ex.Message });
             }
             catch (Exception ex)
             {
