@@ -6,8 +6,8 @@ using Data.Interfaces.IRepository;
 using Data.Repository;
 using Data.Service.Products;
 using Entity.Infrastructure.Context;
+using Entity.Infrastructure.DataInit;
 using Entity.Model;
-using Mapster;
 using MapsterMapper;
 using Microsoft.EntityFrameworkCore;
 
@@ -36,6 +36,13 @@ builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();
 
 var app = builder.Build();
+
+// Data seeder
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    await DataSeeder.SeedAsync(context);
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
