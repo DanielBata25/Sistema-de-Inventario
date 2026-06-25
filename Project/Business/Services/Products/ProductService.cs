@@ -5,6 +5,8 @@ using Data.Interfaces.IRepository;
 using Entity.DTOs.Products;
 using Entity.Model;
 using MapsterMapper;
+using Utilities.Exceptions;
+using Utilities.Helpers.Business;
 
 namespace Business.Services.Products
 {
@@ -23,10 +25,7 @@ namespace Business.Services.Products
 
         public async Task<ProductSelectDto?> GetByCodigoAsync(string codigo)
         {
-            if (string.IsNullOrWhiteSpace(codigo))
-            {
-                throw new ArgumentException("El código del producto es obligatorio.");
-            }
+            BusinessValidationHelper.ThrowIfNullOrEmpty(codigo, "El código del producto es obligatorio.");
 
             var product = await _productRepository.GetByCodigoAsync(codigo.Trim());
 
@@ -40,13 +39,15 @@ namespace Business.Services.Products
 
         public override async Task<ProductSelectDto> CreateAsync(ProductCreateDto dto)
         {
+            BusinessValidationHelper.ThrowIfNull(dto, "El producto no puede ser nulo.");
+
             ValidateProduct(dto.Codigo, dto.Nombre, dto.Precio, dto.Stock);
 
             var existingProduct = await _productRepository.GetByCodigoAsync(dto.Codigo.Trim());
 
             if (existingProduct != null)
             {
-                throw new InvalidOperationException("Ya existe un producto con este código.");
+                throw new BusinessRuleViolationException("Ya existe un producto con este código.");
             }
 
             var product = Mapper.Map<Product>(dto);
@@ -63,10 +64,8 @@ namespace Business.Services.Products
 
         public override async Task<ProductSelectDto?> UpdateAsync(int id, ProductUpdateDto dto)
         {
-            if (id <= 0)
-            {
-                throw new ArgumentException("El ID debe ser mayor que cero.");
-            }
+            BusinessValidationHelper.ThrowIfZeroOrLess(id, "El ID debe ser mayor que cero.");
+            BusinessValidationHelper.ThrowIfNull(dto, "El producto no puede ser nulo.");
 
             ValidateProduct(dto.Codigo, dto.Nombre, dto.Precio, dto.Stock);
 
@@ -81,7 +80,7 @@ namespace Business.Services.Products
 
             if (existingProduct != null && existingProduct.Id != id)
             {
-                throw new InvalidOperationException("Ya existe otro producto con este código.");
+                throw new BusinessRuleViolationException("Ya existe otro producto con este código.");
             }
 
             product.Codigo = dto.Codigo.Trim();
@@ -99,25 +98,10 @@ namespace Business.Services.Products
 
         private static void ValidateProduct(string codigo, string nombre, decimal precio, int stock)
         {
-            if (string.IsNullOrWhiteSpace(codigo))
-            {
-                throw new ArgumentException("El código del producto es obligatorio.");
-            }
-
-            if (string.IsNullOrWhiteSpace(nombre))
-            {
-                throw new ArgumentException("El nombre del producto es obligatorio.");
-            }
-
-            if (precio < 0)
-            {
-                throw new ArgumentException("El precio no puede ser negativo.");
-            }
-
-            if (stock < 0)
-            {
-                throw new ArgumentException("El stock no puede ser negativo.");
-            }
+            BusinessValidationHelper.ThrowIfNullOrEmpty(codigo, "El código del producto es obligatorio.");
+            BusinessValidationHelper.ThrowIfNullOrEmpty(nombre, "El nombre del producto es obligatorio.");
+            BusinessValidationHelper.ThrowIfNegative(precio, "El precio no puede ser negativo.");
+            BusinessValidationHelper.ThrowIfNegative(stock, "El stock no puede ser negativo.");
         }
     }
 }

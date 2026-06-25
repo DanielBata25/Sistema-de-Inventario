@@ -1,5 +1,7 @@
 ﻿using Data.Interfaces.IRepository;
 using MapsterMapper;
+using Utilities.Exceptions;
+using Utilities.Helpers.Business;
 
 namespace Business.Repository
 {
@@ -18,74 +20,109 @@ namespace Business.Repository
 
         public override async Task<IEnumerable<TSelectDto>> GetAllAsync()
         {
-            var entities = await Data.GetAllAsync();
-            return Mapper.Map<IEnumerable<TSelectDto>>(entities);
+            try
+            {
+                var entities = await Data.GetAllAsync();
+                return Mapper.Map<IEnumerable<TSelectDto>>(entities);
+            }
+            catch (Exception ex)
+            {
+                throw new BusinessException("Error al obtener los registros.", ex);
+            }
         }
 
         public override async Task<TSelectDto?> GetByIdAsync(int id)
         {
-            if (id <= 0)
+            try
             {
-                throw new ArgumentException("El ID debe ser mayor que cero.");
+                BusinessValidationHelper.ThrowIfZeroOrLess(id, "El ID debe ser mayor que cero.");
+
+                var entity = await Data.GetByIdAsync(id);
+
+                if (entity == null)
+                {
+                    return default;
+                }
+
+                return Mapper.Map<TSelectDto>(entity);
             }
-
-            var entity = await Data.GetByIdAsync(id);
-
-            if (entity == null)
+            catch (BusinessException)
             {
-                return default;
+                throw;
             }
-
-            return Mapper.Map<TSelectDto>(entity);
+            catch (Exception ex)
+            {
+                throw new BusinessException($"Error al obtener el registro con ID {id}.", ex);
+            }
         }
 
         public override async Task<TSelectDto> CreateAsync(TCreateDto dto)
         {
-            if (dto == null)
+            try
             {
-                throw new ArgumentNullException(nameof(dto), "El DTO no puede ser nulo.");
+                BusinessValidationHelper.ThrowIfNull(dto, "El DTO no puede ser nulo.");
+
+                var entity = Mapper.Map<TEntity>(dto);
+                var created = await Data.AddAsync(entity);
+
+                return Mapper.Map<TSelectDto>(created);
             }
-
-            var entity = Mapper.Map<TEntity>(dto);
-            var created = await Data.AddAsync(entity);
-
-            return Mapper.Map<TSelectDto>(created);
+            catch (BusinessException)
+            {
+                throw;
+            }
+            catch (Exception ex)
+            {
+                throw new BusinessException("Error al crear el registro.", ex);
+            }
         }
 
         public override async Task<TSelectDto?> UpdateAsync(int id, TUpdateDto dto)
         {
-            if (id <= 0)
+            try
             {
-                throw new ArgumentException("El ID debe ser mayor que cero.");
-            }
+                BusinessValidationHelper.ThrowIfZeroOrLess(id, "El ID debe ser mayor que cero.");
+                BusinessValidationHelper.ThrowIfNull(dto, "El DTO no puede ser nulo.");
 
-            if (dto == null)
+                var entity = Mapper.Map<TEntity>(dto);
+
+                var property = typeof(TEntity).GetProperty("Id");
+
+                if (property != null)
+                {
+                    property.SetValue(entity, id);
+                }
+
+                var updated = await Data.UpdateAsync(entity);
+
+                return Mapper.Map<TSelectDto>(updated);
+            }
+            catch (BusinessException)
             {
-                throw new ArgumentNullException(nameof(dto), "El DTO no puede ser nulo.");
+                throw;
             }
-
-            var entity = Mapper.Map<TEntity>(dto);
-
-            var property = typeof(TEntity).GetProperty("Id");
-
-            if (property != null)
+            catch (Exception ex)
             {
-                property.SetValue(entity, id);
+                throw new BusinessException($"Error al actualizar el registro con ID {id}.", ex);
             }
-
-            var updated = await Data.UpdateAsync(entity);
-
-            return Mapper.Map<TSelectDto>(updated);
         }
 
         public override async Task<bool> DeleteAsync(int id)
         {
-            if (id <= 0)
+            try
             {
-                throw new ArgumentException("El ID debe ser mayor que cero.");
-            }
+                BusinessValidationHelper.ThrowIfZeroOrLess(id, "El ID debe ser mayor que cero.");
 
-            return await Data.DeleteAsync(id);
+                return await Data.DeleteAsync(id);
+            }
+            catch (BusinessException)
+            {
+                throw;
+            }
+            catch (Exception ex)
+            {
+                throw new BusinessException($"Error al eliminar el registro con ID {id}.", ex);
+            }
         }
     }
 }
