@@ -3,16 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{005132C6-A1C4-4242-B18B-C6D043B8CC53}|Entity\\Entity.csproj|c:\\users\\batah\\onedrive\\desktop\\sistema-de-inventario\\project\\entity\\dtos\\users\\userselectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{005132C6-A1C4-4242-B18B-C6D043B8CC53}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\users\\userselectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{005132C6-A1C4-4242-B18B-C6D043B8CC53}|Entity\\Entity.csproj|c:\\users\\batah\\onedrive\\desktop\\sistema-de-inventario\\project\\entity\\dtos\\users\\userupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{005132C6-A1C4-4242-B18B-C6D043B8CC53}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\users\\userupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{005132C6-A1C4-4242-B18B-C6D043B8CC53}|Entity\\Entity.csproj|c:\\users\\batah\\onedrive\\desktop\\sistema-de-inventario\\project\\entity\\dtos\\users\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{005132C6-A1C4-4242-B18B-C6D043B8CC53}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\users\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{005132C6-A1C4-4242-B18B-C6D043B8CC53}|Entity\\Entity.csproj|c:\\users\\batah\\onedrive\\desktop\\sistema-de-inventario\\project\\entity\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{005132C6-A1C4-4242-B18B-C6D043B8CC53}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{005132C6-A1C4-4242-B18B-C6D043B8CC53}|Entity\\Entity.csproj|c:\\users\\batah\\onedrive\\desktop\\sistema-de-inventario\\project\\entity\\dtos\\auth\\logoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{005132C6-A1C4-4242-B18B-C6D043B8CC53}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\auth\\logoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{005132C6-A1C4-4242-B18B-C6D043B8CC53}|Entity\\Entity.csproj|c:\\users\\batah\\onedrive\\desktop\\sistema-de-inventario\\project\\entity\\dtos\\auth\\refreshtokenrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{005132C6-A1C4-4242-B18B-C6D043B8CC53}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\auth\\refreshtokenrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{005132C6-A1C4-4242-B18B-C6D043B8CC53}|Entity\\Entity.csproj|c:\\users\\batah\\onedrive\\desktop\\sistema-de-inventario\\project\\entity\\dtos\\auth\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{005132C6-A1C4-4242-B18B-C6D043B8CC53}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\auth\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{005132C6-A1C4-4242-B18B-C6D043B8CC53}|Entity\\Entity.csproj|c:\\users\\batah\\onedrive\\desktop\\sistema-de-inventario\\project\\entity\\model\\auth\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{005132C6-A1C4-4242-B18B-C6D043B8CC53}|Entity\\Entity.csproj|solutionrelative:entity\\model\\auth\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{005132C6-A1C4-4242-B18B-C6D043B8CC53}|Entity\\Entity.csproj|c:\\users\\batah\\onedrive\\desktop\\sistema-de-inventario\\project\\entity\\model\\auth\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{005132C6-A1C4-4242-B18B-C6D043B8CC53}|Entity\\Entity.csproj|solutionrelative:entity\\model\\auth\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9F061913-52FA-4BF8-9CA4-968D36BC0ECC}|CRUD B\u00E1sico\\CRUD B\u00E1sico.csproj|c:\\users\\batah\\onedrive\\desktop\\sistema-de-inventario\\project\\crud b\u00E1sico\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F061913-52FA-4BF8-9CA4-968D36BC0ECC}|CRUD B\u00E1sico\\CRUD B\u00E1sico.csproj|solutionrelative:crud b\u00E1sico\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F061913-52FA-4BF8-9CA4-968D36BC0ECC}|CRUD B\u00E1sico\\CRUD B\u00E1sico.csproj|c:\\users\\batah\\onedrive\\desktop\\sistema-de-inventario\\project\\crud b\u00E1sico\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9F061913-52FA-4BF8-9CA4-968D36BC0ECC}|CRUD B\u00E1sico\\CRUD B\u00E1sico.csproj|solutionrelative:crud b\u00E1sico\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\Migrations\\20260625152736_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entity\\Migrations\\20260625152736_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{005132C6-A1C4-4242-B18B-C6D043B8CC53}|Entity\\Entity.csproj|c:\\users\\batah\\onedrive\\desktop\\sistema-de-inventario\\project\\entity\\infrastructure\\datainit\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -117,6 +149,10 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD B\u00E1sico\\Data\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{005132C6-A1C4-4242-B18B-C6D043B8CC53}|Entity\\Entity.csproj|c:\\users\\batah\\onedrive\\desktop\\sistema-de-inventario\\project\\entity\\migrations\\20260625152736_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{005132C6-A1C4-4242-B18B-C6D043B8CC53}|Entity\\Entity.csproj|solutionrelative:entity\\migrations\\20260625152736_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -126,11 +162,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserSelectDto.cs",
+              "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\DTOs\\Users\\UserSelectDto.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\Users\\UserSelectDto.cs",
+              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\DTOs\\Users\\UserSelectDto.cs*",
+              "RelativeToolTip": "Entity\\DTOs\\Users\\UserSelectDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T16:52:18.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\DTOs\\Users\\UserUpdateDto.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\Users\\UserUpdateDto.cs",
+              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\DTOs\\Users\\UserUpdateDto.cs*",
+              "RelativeToolTip": "Entity\\DTOs\\Users\\UserUpdateDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T16:52:06.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "UserCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\DTOs\\Users\\UserCreateDto.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\Users\\UserCreateDto.cs",
+              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\DTOs\\Users\\UserCreateDto.cs",
+              "RelativeToolTip": "Entity\\DTOs\\Users\\UserCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T16:51:51.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RefreshTokenRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\DTOs\\Auth\\RefreshTokenRequestDto.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\Auth\\RefreshTokenRequestDto.cs",
+              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\DTOs\\Auth\\RefreshTokenRequestDto.cs*",
+              "RelativeToolTip": "Entity\\DTOs\\Auth\\RefreshTokenRequestDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T16:49:31.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LogoutDto.cs",
+              "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\DTOs\\Auth\\LogoutDto.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\Auth\\LogoutDto.cs",
+              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\DTOs\\Auth\\LogoutDto.cs",
+              "RelativeToolTip": "Entity\\DTOs\\Auth\\LogoutDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T16:50:05.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\DTOs\\Auth\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\Auth\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\DTOs\\Auth\\LoginDto.cs",
+              "RelativeToolTip": "Entity\\DTOs\\Auth\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T16:48:49.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\DTOs\\Auth\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\Auth\\AuthResponseDto.cs",
+              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\DTOs\\Auth\\AuthResponseDto.cs",
+              "RelativeToolTip": "Entity\\DTOs\\Auth\\AuthResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T16:49:07.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\Model\\Auth\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "Entity\\Model\\Auth\\RefreshToken.cs",
+              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\Model\\Auth\\RefreshToken.cs*",
+              "RelativeToolTip": "Entity\\Model\\Auth\\RefreshToken.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T16:47:00.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\Model\\Auth\\User.cs",
+              "RelativeDocumentMoniker": "Entity\\Model\\Auth\\User.cs",
+              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\Model\\Auth\\User.cs*",
+              "RelativeToolTip": "Entity\\Model\\Auth\\User.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T16:46:38.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
               "Title": "20260625152736_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\Migrations\\20260625152736_InitialCreate.cs",
               "RelativeDocumentMoniker": "Entity\\Migrations\\20260625152736_InitialCreate.cs",
@@ -138,12 +291,11 @@
               "RelativeToolTip": "Entity\\Migrations\\20260625152736_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T15:27:37.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-25T15:27:37.073Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "DataSeeder.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\Infrastructure\\DataInit\\DataSeeder.cs",
               "RelativeDocumentMoniker": "Entity\\Infrastructure\\DataInit\\DataSeeder.cs",
@@ -151,25 +303,24 @@
               "RelativeToolTip": "Entity\\Infrastructure\\DataInit\\DataSeeder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T15:18:45.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-25T15:18:45.608Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\CRUD B\u00E1sico\\Program.cs",
               "RelativeDocumentMoniker": "CRUD B\u00E1sico\\Program.cs",
-              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\CRUD B\u00E1sico\\Program.cs*",
-              "RelativeToolTip": "CRUD B\u00E1sico\\Program.cs*",
-              "ViewState": "AgIAACgAAAAAAAAAAAAgwDoAAAACAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\CRUD B\u00E1sico\\Program.cs",
+              "RelativeToolTip": "CRUD B\u00E1sico\\Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADwAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-24T22:04:46.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\CRUD B\u00E1sico\\appsettings.json",
               "RelativeDocumentMoniker": "CRUD B\u00E1sico\\appsettings.json",
@@ -177,12 +328,11 @@
               "RelativeToolTip": "CRUD B\u00E1sico\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-24T22:04:08.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T22:04:08.815Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "ProductSeeder.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\Infrastructure\\DataInit\\Product\\ProductSeeder.cs",
               "RelativeDocumentMoniker": "Entity\\Infrastructure\\DataInit\\Product\\ProductSeeder.cs",
@@ -190,12 +340,11 @@
               "RelativeToolTip": "Entity\\Infrastructure\\DataInit\\Product\\ProductSeeder.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAQwA8AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T14:43:30.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-25T14:43:30.371Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\CRUD B\u00E1sico\\Controllers\\Implements\\ProductController.cs",
               "RelativeDocumentMoniker": "CRUD B\u00E1sico\\Controllers\\Implements\\ProductController.cs",
@@ -203,12 +352,11 @@
               "RelativeToolTip": "CRUD B\u00E1sico\\Controllers\\Implements\\ProductController.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAkwDkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T19:50:19.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T19:50:19.143Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "BussinessException.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Utilities\\Exceptions\\BussinessException.cs",
               "RelativeDocumentMoniker": "Utilities\\Exceptions\\BussinessException.cs",
@@ -216,12 +364,11 @@
               "RelativeToolTip": "Utilities\\Exceptions\\BussinessException.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAgwEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T22:26:38.053Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T22:26:38.053Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "BaseController.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\CRUD B\u00E1sico\\Controllers\\Base\\BaseController.cs",
               "RelativeDocumentMoniker": "CRUD B\u00E1sico\\Controllers\\Base\\BaseController.cs",
@@ -229,12 +376,11 @@
               "RelativeToolTip": "CRUD B\u00E1sico\\Controllers\\Base\\BaseController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T19:49:29.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T19:49:29.297Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "BusinessValidationHelper.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Utilities\\Helpers\\Business\\BusinessValidationHelper.cs",
               "RelativeDocumentMoniker": "Utilities\\Helpers\\Business\\BusinessValidationHelper.cs",
@@ -242,12 +388,11 @@
               "RelativeToolTip": "Utilities\\Helpers\\Business\\BusinessValidationHelper.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAkwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T22:28:47.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T22:28:47.722Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "DataException.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Utilities\\Exceptions\\DataException.cs",
               "RelativeDocumentMoniker": "Utilities\\Exceptions\\DataException.cs",
@@ -255,12 +400,11 @@
               "RelativeToolTip": "Utilities\\Exceptions\\DataException.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAgwDgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T22:27:08.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T22:27:08.795Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Services\\Products\\ProductService.cs",
               "RelativeDocumentMoniker": "Business\\Services\\Products\\ProductService.cs",
@@ -268,12 +412,11 @@
               "RelativeToolTip": "Business\\Services\\Products\\ProductService.cs",
               "ViewState": "AgIAAFgAAAAAAAAAAAAgwGoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T21:44:16.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T21:44:16.314Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "BusinessGeneric.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Repository\\BusinessGeneric.cs",
               "RelativeDocumentMoniker": "Business\\Repository\\BusinessGeneric.cs",
@@ -281,12 +424,11 @@
               "RelativeToolTip": "Business\\Repository\\BusinessGeneric.cs",
               "ViewState": "AgIAAH0AAAAAAAAAAAAswH8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T21:43:25.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T21:43:25.432Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "MapsterConfig.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Mapping\\MapsterConfig.cs",
               "RelativeDocumentMoniker": "Business\\Mapping\\MapsterConfig.cs",
@@ -298,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "ABusinessGeneric.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Repository\\ABusinessGeneric.cs",
               "RelativeDocumentMoniker": "Business\\Repository\\ABusinessGeneric.cs",
@@ -310,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Interfaces\\Implements\\Products\\IProductService.cs",
               "RelativeDocumentMoniker": "Business\\Interfaces\\Implements\\Products\\IProductService.cs",
@@ -322,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "IBusiness.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Business\\Interfaces\\IBusiness\\IBusiness.cs",
               "RelativeDocumentMoniker": "Business\\Interfaces\\IBusiness\\IBusiness.cs",
@@ -334,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Data\\Service\\Products\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Data\\Service\\Products\\ProductRepository.cs",
@@ -346,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "DataGeneric.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Data\\Repository\\DataGeneric.cs",
               "RelativeDocumentMoniker": "Data\\Repository\\DataGeneric.cs",
@@ -358,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "ADataGenerica.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Data\\Repository\\ADataGenerica.cs",
               "RelativeDocumentMoniker": "Data\\Repository\\ADataGenerica.cs",
@@ -370,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "IDataGeneric.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Data\\Interfaces\\IRepository\\IDataGeneric.cs",
               "RelativeDocumentMoniker": "Data\\Interfaces\\IRepository\\IDataGeneric.cs",
@@ -382,7 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Data\\Interfaces\\Implements\\Products\\IProductRepository.cs",
               "RelativeDocumentMoniker": "Data\\Interfaces\\Implements\\Products\\IProductRepository.cs",
@@ -394,7 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "BaseModel.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\Model\\Base\\BaseModel.cs",
               "RelativeDocumentMoniker": "Entity\\Model\\Base\\BaseModel.cs",
@@ -406,7 +548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\Infrastructure\\Context\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Entity\\Infrastructure\\Context\\ApplicationDbContext.cs",
@@ -418,7 +560,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "ProductCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\DTOs\\Products\\Create\\ProductCreateDto.cs",
               "RelativeDocumentMoniker": "Entity\\DTOs\\Products\\Create\\ProductCreateDto.cs",
@@ -430,7 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "ProductUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\DTOs\\Products\\Update\\ProductUpdateDto.cs",
               "RelativeDocumentMoniker": "Entity\\DTOs\\Products\\Update\\ProductUpdateDto.cs",
@@ -442,7 +584,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 33,
               "Title": "ProductSelectDto.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Desktop\\Sistema-de-Inventario\\Project\\Entity\\DTOs\\Products\\Select\\ProductSelectDto.cs",
               "RelativeDocumentMoniker": "Entity\\DTOs\\Products\\Select\\ProductSelectDto.cs",
@@ -454,7 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 34,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD B\u00E1sico\\Utilities\\Class1.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Escritorio\\CRUD B\u00E1sico\\Utilities\\Class1.cs",
@@ -465,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 35,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD B\u00E1sico\\Business\\Class1.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Escritorio\\CRUD B\u00E1sico\\Business\\Class1.cs",
@@ -477,7 +619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 36,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD B\u00E1sico\\Entity\\Class1.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Escritorio\\CRUD B\u00E1sico\\Entity\\Class1.cs",
@@ -489,7 +631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 37,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\batah\\OneDrive\\Escritorio\\CRUD B\u00E1sico\\Data\\Class1.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Escritorio\\CRUD B\u00E1sico\\Data\\Class1.cs",
