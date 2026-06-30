@@ -1,4 +1,5 @@
 ﻿using Entity.Infrastructure.Context;
+using Entity.Infrastructure.DataInit.Auth;
 using Entity.Infrastructure.DataInit.Products;
 
 namespace Entity.Infrastructure.DataInit
@@ -8,6 +9,7 @@ namespace Entity.Infrastructure.DataInit
         public static async Task SeedAsync(ApplicationDbContext context)
         {
             await ProductSeeder.SeedAsync(context);
+            await UserSeeder.SeedAsync(context);
         }
     }
 }
