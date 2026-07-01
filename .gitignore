@@ -1,3 +1,22 @@
+# Visual Studio
 .vs/
-obj/
+**/.vs/
+
+# Build results
 bin/
+obj/
+**/bin/
+**/obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.csproj.user
+
+# Cache / temp
+*.cache
+*.tmp
+*.db
+*.log
