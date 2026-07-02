@@ -8,11 +8,9 @@ namespace Data.Service.Products
 {
     public class ProductRepository : DataGeneric<Product>, IProductRepository
     {
-        private readonly ApplicationDbContext _context;
-
         public ProductRepository(ApplicationDbContext context) : base(context)
         {
-            _context = context;
+            
         }
 
         public async Task<Product?> GetByCodigoAsync(string codigo)

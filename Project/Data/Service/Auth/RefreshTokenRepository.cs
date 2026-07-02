@@ -8,11 +8,10 @@ namespace Data.Service.Auth
 {
     public class RefreshTokenRepository : DataGeneric<RefreshToken>, IRefreshTokenRepository
     {
-        private readonly ApplicationDbContext _context;
-
+     
         public RefreshTokenRepository(ApplicationDbContext context) : base(context)
         {
-            _context = context;
+            
         }
 
         public async Task<RefreshToken?> GetByTokenAsync(string token)

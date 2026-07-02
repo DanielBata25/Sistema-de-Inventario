@@ -16,11 +16,11 @@ namespace Business.Mapping
                 .Ignore(dest => dest.Id)
                 .Ignore(dest => dest.Activo)
                 .Ignore(dest => dest.FechaCreacion)
-                .Ignore(dest => dest.FechaActualizacion);
+                .Ignore(dest => dest.FechaActualizacion!);
 
             config.NewConfig<ProductUpdateDto, Product>()
                 .Ignore(dest => dest.FechaCreacion)
-                .Ignore(dest => dest.FechaActualizacion);
+                .Ignore(dest => dest.FechaActualizacion!);
 
             config.NewConfig<Product, ProductSelectDto>();
 

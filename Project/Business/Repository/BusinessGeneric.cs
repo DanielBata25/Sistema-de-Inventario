@@ -62,7 +62,7 @@ namespace Business.Repository
             {
                 BusinessValidationHelper.ThrowIfNull(dto, "El DTO no puede ser nulo.");
 
-                var entity = Mapper.Map<TEntity>(dto);
+                var entity = Mapper.Map<TEntity>(dto!);
                 var created = await Data.AddAsync(entity);
 
                 return Mapper.Map<TSelectDto>(created);
@@ -84,7 +84,7 @@ namespace Business.Repository
                 BusinessValidationHelper.ThrowIfZeroOrLess(id, "El ID debe ser mayor que cero.");
                 BusinessValidationHelper.ThrowIfNull(dto, "El DTO no puede ser nulo.");
 
-                var entity = Mapper.Map<TEntity>(dto);
+                var entity = Mapper.Map<TEntity>(dto!);
 
                 var property = typeof(TEntity).GetProperty("Id");
 
