@@ -1,3 +1,5 @@
+using Business.Interfaces.Implements.Users;
+using Business.Services.Users;
 using Business.Interfaces.Implements.Auth;
 using Business.Interfaces.Implements.Products;
 using Business.Mapping;
@@ -121,6 +123,7 @@ builder.Services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
 // Business layer
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
 
