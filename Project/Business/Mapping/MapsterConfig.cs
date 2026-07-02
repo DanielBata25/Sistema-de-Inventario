@@ -1,5 +1,7 @@
 ﻿using Entity.DTOs.Products;
+using Entity.DTOs.Users;
 using Entity.Model;
+using Entity.Model.Auth;
 using Mapster;
 
 namespace Business.Mapping
@@ -21,6 +23,8 @@ namespace Business.Mapping
                 .Ignore(dest => dest.FechaActualizacion);
 
             config.NewConfig<Product, ProductSelectDto>();
+
+            config.NewConfig<User, UserSelectDto>();
 
             return config;
         }
